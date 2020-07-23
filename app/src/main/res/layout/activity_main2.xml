@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+    <Button
+        android:id="@+id/AsyncMerge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AsyncMerge" />
+
+    <Button
+        android:id="@+id/AsyncTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AsyncTask" />
+
+    <Button
+        android:id="@+id/AsyncCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AsyncCancel" />
+
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:gravity="center"
+        android:text="A TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
